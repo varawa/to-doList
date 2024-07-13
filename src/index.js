@@ -1,15 +1,14 @@
 import React from "react" ;
 import ReactDom from "react-dom/client" ;
+import App from "./App";
 
-const heading = React.createElement("h1" ,
-    {
-        id:"title",
-        key:"h1"
-    }
-    , "Heading1"
-);
+const Body = () =>{
+    return(
+        <App/>
+    );
+}
 
 const root = ReactDom.createRoot(document.getElementById("root")) ;
 
-root.render(heading)
+root.render(<Body/>) ;
 
