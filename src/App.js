@@ -1,18 +1,19 @@
+import './App.css';
+
 import React from "react" ;
-import ReactDom from "react-dom/client" ;
 import TaskForm from "./components/TaskForm";
 import Task from "./components/Task";
 
 const App = () =>{
     return(
-        <>
+        <main>
             <TaskForm />
             <Task />
             <Task />
             <Task />
             <Task />
             <Task />
-        </>
+        </main>
     );
 }
 

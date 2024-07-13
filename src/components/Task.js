@@ -1,9 +1,11 @@
 import React from "react";
+import Checkbox from "./Checkbox";
+
 
 const Task = () => {
     return (
-        <div>
-            <input type="checkbox"/>
+        <div className="task">
+            <Checkbox/>
             test task
         </div>
     )
