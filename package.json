@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "to-do app",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/varawa/todo-list.git"
+  },
+  "author": "vartika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varawa/todo-list/issues"
+  },
+  "homepage": "https://github.com/varawa/todo-list#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "babel-install": "2.1.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
